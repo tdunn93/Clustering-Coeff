@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clustering Coefficient Calculator</title>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="main.js"></script>
+    <script src="datasets.js"></script>
+    <script src="menus.js"></script>
+    <script src="simulation.js"></script>
+    <script src="worm.js"></script>
+    <script src="graph.js"></script>
+    <script srv="http://ryanfait.com/html5-sticky-footer/js/html5.js"></script>
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Clustering Coefficient Calculator</h1>
+        <h2>Using the Barabasi–Albert Free-Scale Network Model</h2>
+      </a>
+        <nav>
+        <ul>
+          <li><a href="index.html">Calculator</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="nomenclature.html">Nomenclature</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+        <h3>Nomenclature</h3>
+        <p>
+          <div class="nomenclature" >
+                <table >
+                    <tr>
+                        <td>
+                            Term
+                        </td>
+                        <td >
+                            Description
+                        </td>
+                        <td>
+                            Example Reference
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            P(j)
+                        </td>
+                        <td>
+                            Probability distribution function.
+                        </td>
+                        <td>
+                            Equation 1.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            j<sub>i</sub>, k<sub>i</sub> 
+                        </td>
+                        <td>
+                            Degree of node i.
+                        </td>
+                        <td>
+                            Equation 1 &amp; Equation 2.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            &gamma;
+                        </td>
+                        <td>
+                            Scale free network component.
+                        </td>
+                        <td>
+                            Equation 1.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            &Pi;(k<sub>i</sub>)
+                        </td>
+                        <td>
+                            Preferential bias function.
+                        </td>
+                        <td>
+                            Equation 2.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            N
+                        </td>
+                        <td>
+                            Number of nodes in network.
+                        </td>
+                        <td>
+                            Equation 2.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            C<sub>i</sub>
+                        </td>
+                        <td>
+                            Local clustering coefficient for node i.
+                        </td>
+                        <td>
+                            Equation 3.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            e<sub>i</sub>
+                        </td>
+                        <td>
+                            Number of links between k<sub>i</sub> neighbours of node i.
+                        </td>
+                        <td>
+                            Equation 3.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            v
+                        </td>
+                        <td>
+                            Set of all nodes in the network.
+                        </td>
+                        <td>
+                            Equation 4.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </p>
+    </div>
+  </body>
+</html>

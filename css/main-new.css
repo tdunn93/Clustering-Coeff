@@ -1,0 +1,151 @@
+/** GENERAL **/
+
+body {
+  font-family:Arial;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto -155px;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.ui-widget {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .8em;
+}
+.ui-widget-content {
+    background: #E5E4E2;
+    border: 1px solid #2C3539;
+    color: #2C3539;
+}
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+#success {
+    padding: 0;
+    margin: 0;
+}
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+.ui-widget-header {
+    background: #B6B6B4;
+    border: 0;
+    color: #2C3539;
+    font-weight: normal;
+}
+.ui-dialog-titlebar-close {
+    display:none;
+}
+
+/* fill the width of parent container */
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/** HEADING **/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family:Arial;
+  margin: 15px 0;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/** FOOTER **/
+
+footer {
+  background-color:#FFF;
+  min-height:150px;
+  height:155px;
+  position: absolute;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.column {
+  width: 150px;
+  background-color:#FFF;
+  height:150px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+   margin: 0px 5px 0px 5px; 
+}
+
+#footer-title {
+ width:100%;
+ background-color:#FFF;
+ float:left;   
+ height:30px;
+ padding-top: 10px;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/** COLORS **/
+
+a {
+  color: #97B1CB;
+}
+
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+header {
+  background: #6ab47b;
+  border-color: #6ab47b;
+}
+
+h1, h2 {
+  color: #fff;
+}
